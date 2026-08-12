@@ -1,0 +1,10 @@
+2020-2029
+2020
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6372,
+  [Symbol(trigger_async_id_symbol)]: 6252,
+  [Symbol(kResourceStore)]: undefined
+}
+third
+true

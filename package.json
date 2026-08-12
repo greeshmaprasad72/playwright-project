@@ -1,0 +1,25 @@
+{
+  "name": "playright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-headed": "npx playwright test --header",
+    "test-debug": "npx playwright test --debug",
+    "test-web": "npx playwright test --grep @web",
+    "test-uimode": "npx playwright test --ui",
+    "test-htmlreport": "npx playwright show-report",
+    "test-config": "npx playwright test --config=playwright.config1.js --project=chromeProject",
+    "test-codegen":"npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure-playwright": "^3.10.2",
+    "typescript": "^7.0.2"
+  }
+}

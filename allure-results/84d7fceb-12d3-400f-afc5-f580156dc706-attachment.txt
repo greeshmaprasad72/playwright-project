@@ -1,0 +1,4 @@
+Welcome to my test
+run before every test
+test1 executed
+run after every test
