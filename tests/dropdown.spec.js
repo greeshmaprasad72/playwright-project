@@ -8,6 +8,6 @@ test("dropdown", async ({page})=>{
     await selectInput.selectOption("Green")
     const message= page.locator("#message-one")
     await message.click()
-    await expect(message).toContainText("Red")
+    await expect(message).toContainText("Green")
     await page.pause()
 })
